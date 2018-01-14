@@ -1,0 +1,34 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+
+.container {
+  columns: 1;
+  margin: 0 auto;
+}
+
+.preview {
+  position: relative;
+  margin: 0;
+  padding: 0;
+	max-width:100%;
+}
+
+@media screen and (min-width: 575px){
+.container {
+  columns: 2;
+  margin 0 auto;
+}
+}
+
+  @media screen and (min-width: 991px){
+  .container{
+    columns: 4;
+    margin 0 auto;
+  }
+}
